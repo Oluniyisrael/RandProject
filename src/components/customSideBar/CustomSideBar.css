@@ -1,0 +1,22 @@
+#CusNav{
+    width: 100px;
+    height: 100vh;
+    position: sticky;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-x: hidden;
+    
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+#navCont{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 20px;
+}
