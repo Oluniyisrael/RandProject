@@ -6,8 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    overflow-x: hidden;
-    
+    /* overflow-x: hidden; */
+    z-index: 900;
 }
 #logo{
     width: 40px;
