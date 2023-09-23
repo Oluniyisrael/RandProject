@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/images/R.png'
-import { FaArrowRight } from 'react-icons/fa'
+import arrow from '../../assets/pngs/arrow.png'
+import { FaAccessibleIcon } from 'react-icons/fa'
 import './CustomSideBar.css'
 
 
@@ -9,10 +10,15 @@ function CustomSideBar() {
     <nav id='CusNav'>
         <div id='navCont'>
             <img src={logo} alt="..." id='logo'/>
-            
-            <FaArrowRight/>
+            <button className='sideBarButton'>
+              <img src={arrow} alt="..." className='buttonIcon'/>
+            </button>
+            {/* <button className='sideBarButton'> */}
+              <FaAccessibleIcon/>
+            {/* </button> */}
+            {/* <FaArrowRight/> */}
                     </div>
-    </nav>
+    </nav> 
     )
 }
 

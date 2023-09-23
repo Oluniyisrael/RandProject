@@ -14,9 +14,32 @@
     height: 40px;
     padding: 20px;
 }
-#navCont{
+.sideBarButton{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items: center;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+.sideBarButton:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.buttonIcon{
+    width: 20px;
+    height: 20px;
+    color: white;
+    /* padding: 20px; */
+}
+#navCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
     gap: 20px;
 }
